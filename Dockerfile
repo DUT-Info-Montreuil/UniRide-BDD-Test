@@ -16,8 +16,8 @@ ENV POSTGRES_USER=$POSTGRES_USER \
     POSTGRES_DB=$POSTGRES_DB
 
 # Copy the schema and insertion scripts to the docker-entrypoint-initdb.d directory
-COPY insertion_test_uniride.sql /docker-entrypoint-initdb.d/script.sql
-COPY schema_test_uniride.sql /docker-entrypoint-initdb.d/zscript.sql
+COPY schema_test_uniride.sql /docker-entrypoint-initdb.d/script.sql
+COPY insertion_test_uniride.sql /docker-entrypoint-initdb.d/zscript.sql
 
 
 ENTRYPOINT ["docker-entrypoint.sh"]

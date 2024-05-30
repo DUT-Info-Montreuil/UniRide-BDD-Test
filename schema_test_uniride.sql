@@ -27,7 +27,6 @@ DROP SCHEMA IF EXISTS uniride CASCADE;
 CREATE SCHEMA uniride;
 
 
-ALTER SCHEMA uniride OWNER TO rayan;
 
 SET default_tablespace = '';
 
@@ -50,7 +49,6 @@ CREATE TABLE uniride.ur_address (
 );
 
 
-ALTER TABLE uniride.ur_address OWNER TO rayan;
 
 --
 -- TOC entry 218 (class 1259 OID 32783)
@@ -66,7 +64,6 @@ CREATE SEQUENCE uniride.ur_address_a_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_address_a_id_seq OWNER TO rayan;
 
 --
 -- TOC entry 3500 (class 0 OID 0)
@@ -88,7 +85,7 @@ CREATE TABLE uniride.ur_assign (
 );
 
 
-ALTER TABLE uniride.ur_assign OWNER TO rayan;
+
 
 --
 -- TOC entry 223 (class 1259 OID 32826)
@@ -110,7 +107,7 @@ CREATE TABLE uniride.ur_document_verification (
 );
 
 
-ALTER TABLE uniride.ur_document_verification OWNER TO rayan;
+
 
 --
 -- TOC entry 222 (class 1259 OID 32825)
@@ -126,7 +123,7 @@ CREATE SEQUENCE uniride.ur_document_verification_v_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_document_verification_v_id_seq OWNER TO rayan;
+
 
 --
 -- TOC entry 3501 (class 0 OID 0)
@@ -154,7 +151,7 @@ CREATE TABLE uniride.ur_documents (
 );
 
 
-ALTER TABLE uniride.ur_documents OWNER TO rayan;
+
 
 --
 -- TOC entry 224 (class 1259 OID 32842)
@@ -170,7 +167,7 @@ CREATE SEQUENCE uniride.ur_documents_d_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_documents_d_id_seq OWNER TO rayan;
+
 
 --
 -- TOC entry 3502 (class 0 OID 0)
@@ -198,7 +195,7 @@ CREATE TABLE uniride.ur_join (
 );
 
 
-ALTER TABLE uniride.ur_join OWNER TO rayan;
+
 
 --
 -- TOC entry 237 (class 1259 OID 2031731)
@@ -214,7 +211,7 @@ CREATE SEQUENCE uniride.ur_join_j_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_join_j_id_seq OWNER TO rayan;
+
 
 --
 -- TOC entry 3503 (class 0 OID 0)
@@ -239,7 +236,7 @@ CREATE TABLE uniride.ur_rating (
 );
 
 
-ALTER TABLE uniride.ur_rating OWNER TO rayan;
+
 
 --
 -- TOC entry 234 (class 1259 OID 1105935)
@@ -254,7 +251,7 @@ CREATE TABLE uniride.ur_rating_criteria (
 );
 
 
-ALTER TABLE uniride.ur_rating_criteria OWNER TO rayan;
+
 
 --
 -- TOC entry 236 (class 1259 OID 1449989)
@@ -300,7 +297,7 @@ CREATE TABLE uniride.ur_role (
 );
 
 
-ALTER TABLE uniride.ur_role OWNER TO rayan;
+
 
 --
 -- TOC entry 216 (class 1259 OID 32774)
@@ -316,7 +313,7 @@ CREATE SEQUENCE uniride.ur_role_r_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_role_r_id_seq OWNER TO rayan;
+
 
 --
 -- TOC entry 3504 (class 0 OID 0)
@@ -346,7 +343,7 @@ CREATE TABLE uniride.ur_trip (
 );
 
 
-ALTER TABLE uniride.ur_trip OWNER TO rayan;
+
 
 --
 -- TOC entry 228 (class 1259 OID 32874)
@@ -362,7 +359,7 @@ CREATE SEQUENCE uniride.ur_trip_t_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_trip_t_id_seq OWNER TO rayan;
+
 
 --
 -- TOC entry 3505 (class 0 OID 0)
@@ -387,7 +384,7 @@ CREATE TABLE uniride.ur_trip_validation (
 );
 
 
-ALTER TABLE uniride.ur_trip_validation OWNER TO rayan;
+
 
 --
 -- TOC entry 230 (class 1259 OID 32899)
@@ -403,7 +400,7 @@ CREATE SEQUENCE uniride.ur_trip_validation_v_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_trip_validation_v_id_seq OWNER TO rayan;
+
 
 --
 -- TOC entry 3506 (class 0 OID 0)
@@ -438,7 +435,7 @@ CREATE TABLE uniride.ur_user (
 );
 
 
-ALTER TABLE uniride.ur_user OWNER TO rayan;
+
 
 --
 -- TOC entry 220 (class 1259 OID 32793)
@@ -454,7 +451,7 @@ CREATE SEQUENCE uniride.ur_user_u_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_user_u_id_seq OWNER TO rayan;
+
 
 --
 -- TOC entry 3507 (class 0 OID 0)
@@ -484,7 +481,7 @@ CREATE TABLE uniride.ur_vehicle (
 );
 
 
-ALTER TABLE uniride.ur_vehicle OWNER TO rayan;
+
 
 --
 -- TOC entry 226 (class 1259 OID 32858)
@@ -500,7 +497,7 @@ CREATE SEQUENCE uniride.ur_vehicule_v_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE uniride.ur_vehicule_v_id_seq OWNER TO rayan;
+
 
 --
 -- TOC entry 3508 (class 0 OID 0)
